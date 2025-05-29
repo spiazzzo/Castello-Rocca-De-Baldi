@@ -88,6 +88,6 @@ Questo progetto è concesso in licenza sotto la MIT License. Vedi il file [LICEN
 
 ## 📞 Contatti
 
-Per suggerimenti o segnalazioni, contattaci a `info@webcastello.it`.
+Per suggerimenti o segnalazioni, contattaci a `rocca.de.baldi@ruparpiemonte.it`.
 
 Buona navigazione! 🎉
