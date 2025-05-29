@@ -1,0 +1,93 @@
+# Castello di Rocca de' Baldi
+
+**Sito Web Ufficiale** dedicato alla storia, descrizione e scoperta del Castello di Rocca de' Baldi, un gioiello dell'architettura storica piemontese.
+
+---
+
+## 📂 Struttura del Progetto
+
+```text
+castello-roccadebaldi/
+├── img/                   # Immagini del castello e anteprime
+├── storia/
+│   └── storia.html        # Pagina Storia del Castello
+├── mappa/
+│   └── mappa.html         # Mappa locale
+├── descrizione/
+│   └── descrizione.html   # Pagina Descrizione
+├── contatti.html          # Pagina Contatti
+├── index.html             # Home page
+├── styles.css             # Stili CSS principali
+└── script.js              # Script JavaScript per slider/carousel
+```
+
+---
+
+## 🚀 Caratteristiche Principali
+
+* **Slider/Carousel** con immagini del Castello
+
+  * Navigazione tramite frecce, puntini e anteprime
+  * Scorrimento automatico ogni 5 secondi
+  * Transizione fluida orizzontale
+
+* **Pagine di approfondimento**:
+
+  * `Storia` (storia.html)
+  * `Mappa Locale` (mappa.html)
+  * `Descrizione` (descrizione.html)
+  * `Contatti` (contatti.html)
+
+* **Header e Footer** comuni a tutte le pagine
+
+  * Logo cliccabile per tornare alla Home
+  * Link social (Facebook, Instagram, TripAdvisor)
+  * Link email e telefono non in stile default blu
+
+* **Design responsive**
+
+  * Layout a colonne flessibile (flexbox) in `.intro`
+  * Grid di immagini per la galleria
+  * Media queries per tablet e smartphone
+
+---
+
+## ⚙️ Installazione e Avvio
+
+1. **Clona il repository**:
+
+   ```bash
+   git clone https://github.com/<tuo-username>/castello-roccadebaldi.git
+   cd castello-roccadebaldi
+   ```
+
+2. **Visualizza localmente**:
+
+   * Apri `index.html` nel tuo browser.
+
+3. **Aggiornamenti**:
+
+   * Modifica i file `.html`, `styles.css` e `script.js` secondo le tue necessità.
+
+---
+
+## 🛠️ Tecnologie Utilizzate
+
+* **HTML5** & **CSS3** per struttura e stili
+* **JavaScript (ES6+)** per il carousel
+* **Font Awesome 6** per icone social
+* **Flexbox** e **CSS Grid** per layout responsivo
+
+---
+
+## 📄 Licenza
+
+Questo progetto è concesso in licenza sotto la MIT License. Vedi il file [LICENSE](LICENSE) per i dettagli.
+
+---
+
+## 📞 Contatti
+
+Per suggerimenti o segnalazioni, contattaci a `info@webcastello.it`.
+
+Buona navigazione! 🎉
