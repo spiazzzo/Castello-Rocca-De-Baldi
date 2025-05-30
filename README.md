@@ -13,9 +13,12 @@ castello-roccadebaldi/
 │   └── storia.html        # Pagina Storia del Castello
 ├── mappa/
 │   └── mappa.html         # Mappa locale
-├── descrizione/
-│   └── descrizione.html   # Pagina Descrizione
-├── contatti.html          # Pagina Contatti
+├── contatti/
+│   └── contatti.html      # Pagina Descrizione
+|   └── invia-contatto.php   
+├── questionario/
+|   └── questionario.html  # Pagina Descrizione
+|   └── salva-risposte.php  
 ├── index.html             # Home page
 ├── styles.css             # Stili CSS principali
 └── script.js              # Script JavaScript per slider/carousel
@@ -35,7 +38,7 @@ castello-roccadebaldi/
 
   * `Storia` (storia.html)
   * `Mappa Locale` (mappa.html)
-  * `Descrizione` (descrizione.html)
+  * `Questionario` (descrizione.html)
   * `Contatti` (contatti.html)
 
 * **Header e Footer** comuni a tutte le pagine
