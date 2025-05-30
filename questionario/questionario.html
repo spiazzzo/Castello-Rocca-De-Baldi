@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" href="../img/logo-rocca.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Questionario - Castello di Rocca de' Baldi</title>
+  <link rel="stylesheet" href="../styles.css" />
+  <script defer src="../script.js"></script>
+</head>
+<body>
+  <header class="comune-header">
+    <div class="container">
+      <div class="logo-comune">
+        <img src="../img/logo-rocca.png" alt="Logo Comune di Rocca de' Baldi" />
+        <h1><a href="../index.html">Comune di Rocca de' Baldi</a></h1>
+      </div>
+      <nav class="nav-comune">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../storia/storia.html">Storia</a></li>
+          <li><a href="../mappa/mappa.html">Mappa Locale</a></li>
+          <li><a href="../questionario/questionario.html">Questionario</a></li>
+          <li><a href="../contatti/contatti.html">Contatti</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="intro">
+      <h2>Questionario</h2>
+	<form action="salva-risposte.php" method="POST">
+
+  <label for="nome">Nome:</label>
+  <input type="text" id="nome" name="nome" required><br><br>
+
+  <label for="eta">Età:</label>
+  <input type="number" id="eta" name="eta" required><br><br>
+
+  <label>Ti è piaciuto il castello?</label><br>
+  <input type="radio" id="si" name="piaciuto" value="Si">
+  <label for="si">Sì</label><br>
+  <input type="radio" id="no" name="piaciuto" value="No">
+  <label for="no">No</label><br><br>
+
+  <label for="commenti">Commenti:</label><br>
+  <textarea id="commenti" name="commenti" rows="4" cols="40"></textarea><br><br>
+
+  <button type="submit">Invia</button>
+</form>
+
+</section>
+</main>
+
+<footer>
+  <div class="footer-content">
+    <p>
+      &copy; WebCastello S.r.l. - Siti per la cultura | P.IVA 00454560046 |
+      <a href="https://www.comune.roccadebaldi.cn.it/" target="_blank" class="footer-link">
+        Sito
+      </a> |
+      <a href="mailto:rocca.de.baldi@ruparpiemonte.it" class="footer-link">
+        rocca.de.baldi@ruparpiemonte.it
+      </a> |
+      <a href="tel:+390174587103" class="footer-link">
+        +39 0174587103
+      </a>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>
