@@ -2,14 +2,15 @@
 <html lang="it">
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/png" href="../img/logo-rocca.png">
+  <link rel="icon" type="image/png" href="../img/logo-rocca.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Contatti - Castello di Rocca de' Baldi</title>
   <link rel="stylesheet" href="../styles.css" />
   <script defer src="../script.js"></script>
 </head>
 <body>
-  <header class="comune-header">
+  <header class="comune-header" style="position: relative;">
     <div class="container">
       <div class="logo-comune">
         <img src="../img/logo-rocca.png" alt="Logo Comune di Rocca de' Baldi" />
@@ -25,22 +26,27 @@
         </ul>
       </nav>
     </div>
+    <div class="github-icon">
+      <a href="https://github.com/spiazzzo/Castello-Rocca-De-Baldi" target="_blank">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
   </header>
 
   <main>
-    <section class="intro">
+    <section class="intro fade-in-up">
       <h2>Contattaci</h2>
       <p>Per richieste, informazioni o prenotazioni, compila il modulo qui sotto:</p>
 
-      <form action="invia-contatto.php" method="POST" class="contact-form">
-        <label for="nome">Nome:</label><br>
-        <input type="text" id="nome" name="nome" required><br><br>
+      <form action="invia-contatto.php" method="POST" class="contact-form fade-in-up">
+        <label for="nome">Nome:</label><br />
+        <input type="text" id="nome" name="nome" required /><br /><br />
 
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" required placeholder="esempio@email.it" /><br /><br />
 
-        <label for="messaggio">Messaggio:</label><br>
-        <textarea id="messaggio" name="messaggio" rows="5" required></textarea><br><br>
+        <label for="messaggio">Messaggio:</label><br />
+        <textarea id="messaggio" name="messaggio" rows="5" required></textarea><br /><br />
 
         <button type="submit">Invia</button>
       </form>
