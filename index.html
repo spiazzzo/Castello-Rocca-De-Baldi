@@ -2,18 +2,16 @@
 <html lang="it">
 <head>
   <meta charset="UTF-8" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
   <link rel="icon" type="image/png" href="img/logo-rocca.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Castello di Rocca de' Baldi</title>
   <link rel="stylesheet" href="styles.css" />
   <script defer src="script.js"></script>
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-  />
 </head>
 <body>
-  <header class="comune-header">
+  <header class="comune-header" style="position: relative;">
     <div class="container">
       <div class="logo-comune">
         <img src="img/logo-rocca.png" alt="Logo Comune di Rocca de' Baldi" />
@@ -26,13 +24,19 @@
           <li><a href="mappa/mappa.html">Mappa Locale</a></li>
           <li><a href="questionario/questionario.html">Questionario</a></li>
           <li><a href="contatti/contatti.html">Contatti</a></li>
-        </ul>
+		</ul>
       </nav>
-    </div>
+	  </div>
+			<!-- Icona GitHub a destra -->
+			<div class="github-icon">
+			  <a href="https://github.com/spiazzzo/Castello-Rocca-De-Baldi" target="_blank">
+				<i class="fab fa-github"></i>
+			  </a>
+			</div>
   </header>
 
   <main>
-    <section class="hero">
+    <section class="hero fade-in-up" >
       <div class="slider-container">
         <div class="slide active">
           <img src="img/castello1.jpg" alt="Vista frontale del castello" />
@@ -68,7 +72,7 @@
       </div>
     </section>
 
-    <section class="intro">
+    <section class="intro fade-in-up">
       <h2>Benvenuti nel sito del Castello</h2>
       <p>
         Il Castello di Rocca de' Baldi è un affascinante esempio di architettura
@@ -79,7 +83,7 @@
       </p>
     </section>
 
-    <section class="quadrettoni">
+    <section class="quadrettoni fade-in-up">
       <div class="grid">
         <div class="grid-item">
           <img src="img/foto1.jpg" alt="Torre del castello" />
@@ -120,7 +124,7 @@
       </div>
     </section>
 
-    <section class="social">
+    <section class="social fade-in-up">
       <h3>Seguici sui social</h3>
       <a href="https://ms-my.facebook.com/roccadebaldi/" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a>
       <a href="https://www.instagram.com/roccadebaldi/?hl=it" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
