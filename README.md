@@ -8,25 +8,25 @@
 
 ```text
 castello-roccadebaldi/
-├── img/                   # Immagini del castello e anteprime
+├── img/                            # Immagini del castello e anteprime
 ├── storia/
-│   └── storia.html        # Pagina Storia del Castello
+│   └── storia.html                 # Pagina Storia del Castello
 ├── mappa/
-│   └── mappa.html         # Mappa locale
+│   └── mappa.html                  # Mappa locale
 ├── contatti/
-│   └── contatti.html      # Pagina Descrizione
-|   └── contatti_risposte  # Dati Contatti   
+│   └── contatti.html               # Pagina Descrizione
+|   └── contatti_risposte           # Dati Contatti   
 |   └── invia-contatto.php 
 ├── questionario/
 |   └── logs/
-|       └── ip_log.json    # Lista degli ip
-|   └── questionario.html  # Pagina Descrizione
+|       └── ip_log.json             # Lista degli ip
+|   └── questionario.html           # Pagina Descrizione
 |   └── salva-risposte.php
-|   └── grazie.html        # Pagina che viene visual. dopo avere inviato il form
+|   └── grazie.html                 # Pagina che viene visual. dopo avere inviato il form
 |   └── risposte_questionario.txt
-├── index.html             # Home page
-├── styles.css             # Stili CSS principali
-└── script.js              # Script JavaScript per slider/carousel
+├── index.html                      # Home page
+├── styles.css                      # Stili CSS principali
+└── script.js                       # Script JavaScript per slider/carousel
 ```
 
 ---
