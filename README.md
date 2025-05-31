@@ -19,7 +19,7 @@ castello-roccadebaldi/
 |   └── invia-contatto.php 
 ├── questionario/
 |   └── logs/
-|         └── ip_log.json  # Lista degli ip
+|       └── ip_log.json  # Lista degli ip
 |   └── questionario.html  # Pagina Descrizione
 |   └── salva-risposte.php
 |   └── grazie.html        # Pagina che viene visual. dopo avere inviato il form
