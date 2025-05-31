@@ -78,6 +78,7 @@ castello-roccadebaldi/
 
 * **HTML5** & **CSS3** per struttura e stili
 * **JavaScript (ES6+)** per il carousel
+* **PHP** per l'invio del questionario e dei contatti
 * **Font Awesome 6** per icone social
 * **Flexbox** e **CSS Grid** per layout responsivo
 
@@ -91,6 +92,6 @@ Questo progetto è concesso in licenza sotto la MIT License. Vedi il file [LICEN
 
 ## 📞 Contatti
 
-Per suggerimenti o segnalazioni, contattaci a `rocca.de.baldi@ruparpiemonte.it`.
+Per suggerimenti o segnalazioni, contattaci a `piazzolla.paoloettore07@gmail.com`.
 
 Buona navigazione! 🎉
