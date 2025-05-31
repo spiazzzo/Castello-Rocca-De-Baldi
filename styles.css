@@ -63,7 +63,7 @@ a {
 
 .nav-comune ul li a {
   color: white;
-  font-weight: 600;
+  font-weight: 60%;
   font-size: 1.3vw; /* circa 16px su schermi grandi */
   text-decoration: none;
   transition: color 0.3s ease;
@@ -254,6 +254,7 @@ a {
   text-align: center;
   margin-bottom: 3rem;
 }
+
 .social h3 {
   font-size: 1.5rem;
   margin-bottom: 0.7rem;
@@ -267,6 +268,55 @@ a {
 .social a:hover {
   color: #ffcc00;
 }
+
+
+.sociall {
+  text-align: center;
+}
+.sociall a {
+  color: #003366;
+  font-size: 2rem;
+  transition: color 0.3s ease;
+}
+.sociall a:hover {
+  color: #ffcc00;
+}
+
+
+/* Per allineare tutti gli elementi dell'header in riga */
+.header-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* Contenitore padre (esempio: .container nel header) */
+.container {
+  position: relative; /* serve per posizionamento assoluto figli */
+}
+
+/* Icona GitHub */
+.github-icon {
+  font-size: 3rem;
+  color: #FFFFFF;
+  position: absolute;
+  top: 50%;            /* verticale a metà contenitore */
+  right: 1rem;         /* distanza a destra */
+  transform: translateY(-50%); /* per centrare esattamente verticalmente */
+  z-index: 1000;
+}
+
+
+.github-icon a {
+  color: inherit;
+  transition: color 0.5s ease;
+}
+
+.github-icon a:hover {
+  color: #ffcc00;
+}
+
 
 /* FOOTER */
 footer {
@@ -286,6 +336,108 @@ footer {
 }
 .footer-content a:hover {
   border-bottom-color: #ffcc00;
+}
+
+
+/* FORM STILI GENERICI */
+form {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form .form-group {
+  margin-bottom: 1.5rem;
+}
+
+form label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="number"],
+form textarea,
+form select {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  transition: border-color 0.3s ease;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #ff8800;
+  outline: none;
+}
+
+/* Campo email evidenziato in arancione se non valido */
+form input:invalid[type="email"] {
+  border-color: orange;
+}
+
+/* Radio inline */
+.radio-group {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: center; /* CENTRA orizzontalmente */
+  margin-top: 0.5rem;
+}
+
+
+.radio-group label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Checkbox gruppo (aspetti) */
+.checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.checkbox-group label {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  font-weight: normal;
+}
+
+/* Pulsante invio */
+form button[type="submit"] {
+  background-color: #003366;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+form button[type="submit"]:hover {
+  background-color: #ff8800;
+}
+
+/* Messaggi di errore */
+.form-error {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
 }
 
 /* RESPONSIVE */
@@ -320,4 +472,43 @@ footer {
     width: 80px;
     height: 50px;
   }
+}
+/* Fade-in up (scroll animation) */
+.fade-in-up {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.fade-in-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Input focus */
+input, textarea, select {
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+input:focus, textarea:focus, select:focus {
+  border-color: #ffcc00;
+  box-shadow: 0 0 8px #ffcc00;
+  outline: none;
+}
+
+/* Pulsante invia */
+button[type="submit"] {
+  background-color: #003366;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+button[type="submit"]:hover {
+  background-color: #ffcc00;
+  color: #003366;
+  transform: scale(1.05);
+}
+button[type="submit"]:active {
+  transform: scale(0.95);
 }
