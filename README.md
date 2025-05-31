@@ -2,6 +2,8 @@
 
 **Sito Web Ufficiale** dedicato alla storia, descrizione e scoperta del Castello di Rocca de' Baldi, un gioiello dell'architettura storica piemontese.
 
+🌐 **Sito WEB Online:** [https://piazzollapaoloettore3ainf2425.42web.io](https://piazzollapaoloettore3ainf2425.42web.io)
+
 ---
 
 ## 📂 Struttura del Progetto
