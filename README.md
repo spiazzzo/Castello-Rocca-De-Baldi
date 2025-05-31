@@ -15,10 +15,15 @@ castello-roccadebaldi/
 │   └── mappa.html         # Mappa locale
 ├── contatti/
 │   └── contatti.html      # Pagina Descrizione
-|   └── invia-contatto.php   
+|   └── contatti_risposte  # Dati Contatti   
+|   └── invia-contatto.php 
 ├── questionario/
+|   └── logs/
+|         └── ip_log.json  # Lista degli ip
 |   └── questionario.html  # Pagina Descrizione
-|   └── salva-risposte.php  
+|   └── salva-risposte.php
+|   └── grazie.html        # Pagina che viene visual. dopo avere inviato il form
+|   └── risposte_questionario.txt
 ├── index.html             # Home page
 ├── styles.css             # Stili CSS principali
 └── script.js              # Script JavaScript per slider/carousel
