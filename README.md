@@ -67,8 +67,8 @@ castello-roccadebaldi/
 1. **Clona il repository**:
 
    ```bash
-   git clone https://github.com/spiazzzo/castello-roccadebaldi.git
-   cd castello-roccadebaldi
+   git clone https://github.com/spiazzzo/Castello-Rocca-De-Baldi.git
+   cd Castello-Rocca-De-Baldi
    ```
 
 2. **Visualizza localmente**:
